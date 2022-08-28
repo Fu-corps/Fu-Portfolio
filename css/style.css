@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/andrew-kliatskyi-PC01nb6VhM4-unsplash.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -46,7 +46,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
-
+p{
+  font-size: medium;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -367,7 +369,7 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -423,7 +425,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(36, 36, 36);
   padding: 12px;
   color: #18d26e;
   border-radius: 50px;
@@ -888,6 +890,26 @@ section .container {
   right: 15px;
 }
 
+.text-center{
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.text-center:hover{
+background: #15bb62;
+}
+
+button{
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: rgb(19, 19, 19);
+  transition: 0.4s;
+  border-radius: 4px;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1157,16 +1179,16 @@ section .container {
   bottom: 0;
   padding: 15px;
   text-align: right;
-  font-size: 13px;
+  font-size: 11px;
   color: #fff;
   z-index: 999999;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1280px) {
   .credits {
     text-align: center;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, .8);
   }
 }
 
